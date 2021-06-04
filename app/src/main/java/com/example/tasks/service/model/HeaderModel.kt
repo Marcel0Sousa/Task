@@ -1,0 +1,15 @@
+package com.example.tasks.service.model
+
+import com.google.gson.annotations.SerializedName
+
+class HeaderModel {
+
+    @SerializedName("token")
+    var token: String = ""
+
+    @SerializedName("personKey")
+    var personkey: String = ""
+
+    @SerializedName("name")
+    var name: String = ""
+}
